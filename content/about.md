@@ -3,7 +3,9 @@ title = "About"
 url = "/about"
 +++
 
-# Erik Demitz-Helin
+# ![header-photo](/images/bio-photo.jpg#header-photo) Erik Demitz-Helin
+
+
 Motivated bioinformatician and molecular biologist, always looking for new opportunities to learn. Proud computer geek since childhood. I have always liked solving problems programmatically.
 
 I enjoy writing code (Python, R, Bash) for my own academic and personal projects, as well as contributing to open-source projects. I’m a UNIX/Linux fanatic, and I dabble with networking, security, containerization, automation, etc.
