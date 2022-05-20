@@ -1,0 +1,4 @@
+<a href="{{ "/" | relURL }}">Blog</a>
+{{ with .Site.GetPage "/about" }}
+<a href="{{ "/about" | relURL }}">About</a>
+{{ end }}

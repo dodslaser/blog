@@ -1,0 +1,20 @@
+title = "dodslaser"
+baseURL = "https://dodslaser.com"
+author = "Erik Demitz-Helin"
+languageCode = "en-US"
+theme = 'hugo-bearblog'
+
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "Various projects and ramblings, sometimes about bioinformatics"
+  favicon = "images/favicon.png"
+  images = ["images/share.png"]
+  title = "dodslaser"
+  # hideMadeWithLine = true
+  # dateFormat = "2006-01-02"
