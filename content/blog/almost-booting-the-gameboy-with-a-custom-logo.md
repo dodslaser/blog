@@ -162,7 +162,7 @@ header = bytes(
     for a in (0, 24)  # Upper/lower 24 bytes
     for b in range(0, 6)  # 6 bytes (48 bits) per row
     for c in (0, 4)  # Upper/lower nibbles
-    for d in (0, 12)  # Upper/lower nibble are 12 bytes apart
+    for d in (0, 12)  # Neighbor bytes in he header are 12 bytes apart in the logo
 )
 
 # Generate a valid gameboy rom by padding with 0x00 to fill out the header
