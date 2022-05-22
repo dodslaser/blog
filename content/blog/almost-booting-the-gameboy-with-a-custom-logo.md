@@ -73,7 +73,7 @@ And here it is in BGB:
 
 ![DMG-all-FF](/images/blog/almost-booting-the-gameboy-with-a-custom-logo/DMG-all-FF.webp)
 
-The validation code isn't just affecting the logo, it *is* the logo (surprise!). Now we need to figure out how to decode it.
+The validation code isn't just affecting the logo, it *encodes* the logo (surprise!). Now we need to figure out how to decode it.
 
 # Decoding the Logo
 
@@ -162,7 +162,7 @@ header = bytes(
     for a in (0, 24)  # Upper/lower 24 bytes
     for b in range(0, 6)  # 6 bytes (48 bits) per row
     for c in (0, 4)  # Upper/lower nibbles
-    for d in (0, 12)  # Neighbor bytes in he header are 12 bytes apart in the logo
+    for d in (0, 12)  # Header bytes are 12 logo bytes apart
 )
 
 # Generate a valid gameboy rom by padding with 0x00 to fill out the header
