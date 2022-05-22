@@ -5,11 +5,11 @@ languageCode = "en-US"
 theme = 'hugo-bearblog'
 
 enableRobotsTXT = true
-# disableKinds = ["taxonomy"]
-# ignoreErrors = ["error-disable-taxonomy"]
-# [permalinks]
-#   blog = "/:slug/"
-#   tags = "/blog/:slug"
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
 
 [params]
   description = "Various projects and ramblings, sometimes about bioinformatics"
