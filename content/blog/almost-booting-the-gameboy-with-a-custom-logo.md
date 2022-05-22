@@ -180,4 +180,6 @@ Implementing a fully booting pirate gameboy cartridge is beyond the scope of thi
 
 ![DMG-hw](/images/blog/almost-booting-the-gameboy-with-a-custom-logo/DMG-hw.webp)
 
-***UPDATE 2022-05-21** Rewrote most of the code to be more readable*
+All the code for this post can be found [here](https://github.com/dodslaser/gameboy-logo)
+
+***UPDATE 2022** Rewrote most of the code to be more readable*
