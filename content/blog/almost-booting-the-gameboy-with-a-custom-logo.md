@@ -123,10 +123,14 @@ Armed with this knowledge and a healthy dose of python we should be able to extr
 from PIL import Image
 
 header = bytes.fromhex(
-    "ce ed 66 66 cc 0d 00 0b 03 73 00 83 "
-    "00 0c 00 0d 00 08 11 1f 88 89 00 0e "
-    "dc cc 6e e6 dd dd d9 99 bb bb 67 63 "
-    "6e 0e ec cc dd dc 99 9f bb b9 33 3e "
+    "ce ed 66 66 cc 0d "
+    "00 0b 03 73 00 83 "
+    "00 0c 00 0d 00 08 "
+    "11 1f 88 89 00 0e "
+    "dc cc 6e e6 dd dd "
+    "d9 99 bb bb 67 63 "
+    "6e 0e ec cc dd dc "
+    "99 9f bb b9 33 3e "
 )
 
 logo = bytes(
