@@ -1,8 +1,9 @@
 title = "dodslaser"
-baseURL = "https://dodslaser.com"
+baseURL = "https://dodslaser.com/"
 author = "Erik Demitz-Helin"
 languageCode = "en-US"
 theme = 'hugo-bearblog'
+relativeURLs = true
 
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
