@@ -1,7 +1,7 @@
 <a href="https://dodslaser.com">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://dodslaser.com/vector/dodslaser-dark.svg">
-        <img alt="dodslaser.com" src="https://dodslaser.com/vector/dodslaser-light.svg">
+        <source srcset="https://dodslaser.com/vector/dodslaser-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="https://dodslaser.com/vector/dodslaser-light.svg", height="50px">
     </picture>
 </a>
 
