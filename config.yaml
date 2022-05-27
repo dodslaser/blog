@@ -2,7 +2,7 @@ title: dodslaser
 baseURL: https://dodslaser.com/
 author: Erik Demitz-Helin
 languageCode: en-US
-theme: hugo-laserbear
+theme: hugo-laserbear-test
 relativeURLs: true
 
 enableRobotsTXT: true

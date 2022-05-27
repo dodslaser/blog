@@ -75,7 +75,7 @@ And here it is in BGB:
 
 The validation code isn't just affecting the logo, it *encodes* the logo (surprise!). Now we need to figure out how to decode it.
 
-# Decoding the Logo
+## Decoding the Logo
 
 The logo is 48x8 pixels and monochrome. Each "pixel" is actually a block of four dots on the matrix. The copyright logo is drawn separately and cannot be altered. The area inside the red markings is our canvas.
 
@@ -149,7 +149,7 @@ Image.frombytes("1", (48, 8), logo).save("logo.bmp")
 
 It works!
 
-# Encoding a Logo
+## Encoding a Logo
 
 Now that we can decode a logo, encoding our own logo should just be a matter doing the same process in reverse. This is the logo I want to encode:
 
