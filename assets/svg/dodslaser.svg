@@ -1,5 +1,12 @@
-<svg version="1.1" baseProfile="full" width="392" height="80" xmlns="http://www.w3.org/2000/svg">
+<svg id="all" version="2.0" baseProfile="full" width="392" height="80" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      #logo-text {fill: black;}
+
+      @media (prefers-color-scheme: dark) {
+          #logo-text {fill: white;}
+      }
+    </style>
     <mask id="text" fill="black">
     	<rect width="100%" height="100%" fill="white"/>
     	<rect x="16" y="8" width="16" height="48"/>
@@ -22,7 +29,7 @@
     </mask>
   </defs>
   <!--Text-->
-  <g fill="white" fill-opacity="1" mask="url(#text)">
+  <g id="logo-text" fill-opacity="1" mask="url(#text)">
     <!--D--><path transform="translate(0 0)" d="M0 0 H40 V8 H48 V56 H40 V64 H0 Z"/> 
     <!--d--><path transform="translate(104 0)" d="M24 0 H40 V64 H8 V56 H0 V32 H8 V24 H24 Z"/> 
     <!--s--><path transform="translate(152 0)" d="M0 24 H32 V32 H16 V40 H32 V64 H0 V56 H16 V48 H0 Z"/> 
