@@ -31,20 +31,20 @@ b {
 }
 
 a {
-    color: #BD93F9;
+    color: #6272a4;
 	/* color: #3273dc; */
 	/*color: #ff5e6c;*/
 }
 
 blockquote {
-	border-left: 1px solid #6272a4;
+	border-left: 1px solid #ff92df;
 	/* border-left: 1px solid #999; */
 	color: #282a36;
     /* color: #222; */
 }
 
 .helptext {
-    color: #6272a4;
+    color: #ff92df;
 	/* color: #777; */
 }
 
@@ -54,7 +54,7 @@ blockquote {
 }
 
 ul.blog-posts li a:visited {
-	color: #ff92df;
+	color: #BD93F9;
 }
 
 pre code {
