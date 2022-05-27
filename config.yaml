@@ -2,7 +2,7 @@ title: dodslaser
 baseURL: https://dodslaser.com/
 author: Erik Demitz-Helin
 languageCode: en-US
-theme: hugo-bearblog
+theme: hugo-laserbear
 relativeURLs: true
 
 enableRobotsTXT: true
@@ -22,3 +22,13 @@ params:
   title: dodslaser
   # hideMadeWithLine: true
   # dateFormat: 2006-01-02
+
+server:
+  headers:
+  - for: /**.html
+    values:
+      Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'
+      Referrer-Policy: strict-origin-when-cross-origin
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: DENY
+      X-XSS-Protection: 1; mode=block

@@ -1,0 +1,12 @@
+img[src*="#header-photo"] {
+    border-radius:50%;
+    width:3.2em;
+}
+h1[id*="header-photo"] {
+    display: flex;
+    align-items: center;
+    gap: .8em;
+}
+pre code {
+    font-size: 12px;
+}
