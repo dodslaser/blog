@@ -4,7 +4,7 @@ date: 2017-08-27T09:18:25+02:00
 draft: false
 ---
 
-In 2003 neviksti managed to extract the original Gameboy boot ROM by [literally putting the CPU under a microscope](http://www.neviksti.com/DMG/). The ROM on the chip was soon decoded, revealing the [bootstrap program](http://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM) responsible for reading and parsing the header of the game cartridge. The program is pretty simple; it reads the header stored on the cartridge, validates it, scrolls the Nintendo logo and plays the di-ding sound. If the header is valid it then starts the program at the entry point. A side-effect of this process allows anyone with a hex editor and too much time on their hands to change the appearance of the Nintendo logo.
+In 2003 neviksti managed to extract the original Gameboy boot ROM by [literally putting the CPU under a microscope](http://www.neviksti.com/DMG/). The ROM on the chip was soon decoded, revealing the [bootstrap program](http://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM) responsible for reading and parsing the header of the game cartridge. The program is pretty simple; it reads the header stored on the cartridge, validates it, scrolls the Nintendo logo and plays the di-ding sound. If the header is valid it then starts the program at the entry point.
 
 ## The Header
 
