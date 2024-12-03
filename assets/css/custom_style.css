@@ -15,7 +15,7 @@ body {
     /* background-color: #fff; */
 	color: #44475a;
     /* color: #444; */
-    
+
 }
 
 h1,
@@ -59,6 +59,14 @@ ul.blog-posts li a:visited {
 
 pre code {
     font-size: 12px;
+		white-space: pre;
+		overflow-x: auto;
+}
+
+@media screen and (max-width: 760px) {
+	pre code {
+		font-size: 10px;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,7 +74,7 @@ pre code {
 		background-color: #21222c;
 		color: #f8f8f2;
 	}
-	
+
 	h1,
 	h2,
 	h3,
@@ -77,21 +85,21 @@ pre code {
 	b {
 		color: #ffffff;
 	}
-	
+
 	a {
 		color: #BD93F9;
 	}
-	
+
 	blockquote {
 		color: #FF79C6;
 	}
-	
+
 	textarea,
 	input {
 		background-color: #44475a;
 		color: #f8f8f2;;
 	}
-	
+
 	.helptext {
 		color: #f8f8f2;;
 	}

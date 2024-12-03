@@ -54,7 +54,7 @@ Since I learn best by doing, I wanted a small project to get my hands dirty. Mos
            ACCEPT SEED FROM ENVIRONMENT "SEED"
                   ON EXCEPTION MOVE 5489 TO SEED.
            MOVE SEED TO CHR-SEED.
-           DISPLAY "MT19937 (Seed:" SPACE TRIM(CHR-SEED) ")".
+           DISPLAY "MT19937 (Seed: " TRIM(CHR-SEED) ")".
 
            ACCEPT N-VALUES FROM ENVIRONMENT "N"
                   ON EXCEPTION MOVE 10 TO N-VALUES.
@@ -110,6 +110,6 @@ Since I learn best by doing, I wanted a small project to get my hands dirty. Mos
 
 The above code compiles with cobc (GnuCOBOL) 3.2.0. You can control the seed with the `SEED` and the number of values to generate with the `N` environment variables.
 
-COBOL feels clunky every step of the way. More than anything, it feels like it was designed when the board of directors of a large financial institution decided to “fix programming languages once and for all.” Maybe I’m just writing it wrong. Any elder  COBOL wizard reading this is probably angrily shaking their wrinkly old fist at the screen, cursing me for wasting precious punch-card space, or not sacrificing the correct number of goats to the correct deities in the `RITUAL SACRIFICE DIVISION.`. If this is you, feel free to [open an issue](https://github.com/dodslaser/MT19937.cob), and I will try to atone for my sins. On a semi-related note, I strongly suspect this would not run on an actual mainframe. Again, feel free to prove me wrong.
+I imagine any elder COBOL wizard reading this is probably angrily shaking their wrinkly old fist at the screen, cursing me for wasting precious punch-card space, or not sacrificing the correct number of goats to the right deities in the `RITUAL SACRIFICE DIVISION.`. If this is you, feel free to [open an issue](https://github.com/dodslaser/MT19937.cob), and I will try to atone for my sins. On a semi-related note, I strongly suspect this would not run on an actual mainframe. Again, feel free to prove me wrong.
 
 Now, if you’ll excuse me, I must go scream into `PILLOW DIVISION.`.
